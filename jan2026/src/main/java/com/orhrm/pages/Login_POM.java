@@ -1,4 +1,4 @@
-package seleniumpac;
+package com.orhrm.pages;
 
 import org.openqa.selenium.By;
 

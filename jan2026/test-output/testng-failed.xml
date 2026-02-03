@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumpac.TC_TestNG">
+      <class name="restapitesting.PUTUser">
         <methods>
-          <include name="afterClass"/>
-          <include name="afterTest"/>
-          <include name="afterMethod"/>
-          <include name="beforeClass"/>
-          <include name="afterSuite"/>
-          <include name="f" invocation-numbers="0"/>
-          <include name="beforeTest"/>
-          <include name="beforeMethod"/>
-          <include name="beforeSuite"/>
+          <include name="postuser"/>
         </methods>
-      </class> <!-- seleniumpac.TC_TestNG -->
+      </class> <!-- restapitesting.PUTUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

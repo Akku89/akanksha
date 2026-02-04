@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restapitesting.PUTUser">
+      <class name="seleniumpac.Lab9">
         <methods>
-          <include name="postuser"/>
+          <include name="setup"/>
+          <include name="test1"/>
+          <include name="tearDown"/>
+          <include name="test3"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- restapitesting.PUTUser -->
+      </class> <!-- seleniumpac.Lab9 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
